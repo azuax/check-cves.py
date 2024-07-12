@@ -72,7 +72,7 @@ if __name__ == "__main__":
     import sys
 
     USAGE = """Usage: python check_cves.py -i <input_file_name.csv> -o <output_directory> [-v]"""
-    if len(sys.argv) < 5:
+    if len(sys.argv) < 3:
         print(USAGE)
         sys.exit(1)
 
